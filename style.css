@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+body {
+    background: url('background1.avif') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: rgba(0, 100, 0, 0.8);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 100, 0, 0.9);
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background: #6a9c3b;
+}
+
+/* Banner Section */
+.banner {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Content */
+.content {
+    padding: 30px;
+}
+
+/* Product Section */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Enquiry Form Section */
+.enquiry-section {
+    background: rgba(255, 255, 255, 0.9); /* Removed full background */
+    padding: 40px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.enquiry-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit Button */
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Footer */
+.footer {
+    background: rgba(0, 100, 0, 0.9);
+    padding: 15px;
+    margin-top: 20px;
+}
